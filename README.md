@@ -21,6 +21,9 @@
   # 初始化并添加仓库
   git init
   git remote add origin git@github.com:jensen5201/blog.git
+  # 忽略不需要提交的文件
+  echo '_book' > .gitignore
+  echo 'node_modules' >> .gitignore
   # 提交代码
   git add .
   git commit -m '[init] 初始化'
