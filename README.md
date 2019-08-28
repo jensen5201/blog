@@ -4,7 +4,7 @@
 
   ```shell
   # 安装
-  npm i -g gitbook
+  npm install -g gitbook-cli
   # 创建目录并初始化
   mkdir blog
   cd blog
@@ -54,3 +54,5 @@
     3、把_book的master分支推送到仓库的gh-pages分支即可。
     4、授权执行权限：chmod +x deploy.sh
   ```
+
+- [travis-ci](https://travis-ci.com/) 持续集成
