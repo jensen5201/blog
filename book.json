@@ -1,0 +1,79 @@
+{
+  "author": "jensen5201",
+  "gitbook": ">=2.0.0",
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "-sharing",
+    "github-buttons",
+    "editlink",
+    "ga",
+    "-highlight",
+    "prism",
+    "bibtex-indexed-cite",
+    "anchor-navigation-ex",
+    "page-footer-ex",
+    "splitter",
+    "todo",
+    "copy-code-button",
+    "expandable-chapters-small",
+    "donate"
+  ],
+  "pluginsConfig": {
+    "search-pro": {
+      "cutWordLib": "nodejieba",
+      "defineWord": ["Gitbook Use"]
+    },
+    "anchor-navigation-ex": {
+      "showLevel": false
+    },
+    "github-buttons": {
+      "buttons": [
+        {
+          "user": "jensen5201",
+          "repo": "blog",
+          "type": "star",
+          "size": "small",
+          "count": true
+        }
+      ]
+    },
+    "editlink": {
+      "base": "https://github.com/jensen5201/blog",
+      "label": "Edit",
+      "multilingual": false
+    },
+    "ga": {
+      "token": "UA-131910384-3"
+    },
+    "prism": {
+      "ignore": ["mermaid", "eval-js"],
+      "css": ["prismjs/themes/prism-solarizedlight.css"]
+    },
+    "page-footer-ex": {
+      "copyright": "By [jensen5201](https://github.com/jensen5201)",
+      "markdown": true,
+      "update_label": "修订于：",
+      "update_format": "YYYY-MM-DD HH:mm:ss"
+    },
+    "bibtex-indexed-cite": {
+      "path": "/"
+    },
+    "donate": {
+      "wechat": "./images/Wechat.jpeg",
+      "alipay": "./images/ali.jpeg",
+      "title": "",
+      "button": "赏",
+      "alipayText": "支付宝",
+      "wechatText": "微信"
+    }
+  }
+}

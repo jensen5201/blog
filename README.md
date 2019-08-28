@@ -1,5 +1,7 @@
 # gitbook 搭建自己的 blog
 
+"This is such a great book!"
+
 - 创建 [gitbook](https://www.gitbook.com/) 项目
 
   ```shell
@@ -58,3 +60,4 @@
 - [travis-ci](https://travis-ci.com/) 持续集成
 
 - 配置 [book.json](https://chrisniael.gitbooks.io/gitbook-documentation/content/format/configuration.html)
+  - [plugins](https://docs.gitbook.com/v2-changes/important-differences)
