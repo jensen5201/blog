@@ -63,9 +63,6 @@
       "update_label": "修订于：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
     },
-    "bibtex-indexed-cite": {
-      "path": "/"
-    },
     "donate": {
       "wechat": "./images/Wechat.jpeg",
       "alipay": "./images/ali.jpeg",
