@@ -23,7 +23,7 @@ after_script:
   - git remote add origin https://${path}
   - git add .
   - git commit -m "Updated By Travis-CI With Build $TRAVIS_BUILD_NUMBER For Github Pages"
-  - git push --force --quiet "https://jensen5201:Git091290..@${path}" master:gh-pages
+  - git push --force "https://jensen5201:Git091290..@${path}" master:gh-pages
 
 branches:
   only:
