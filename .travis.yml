@@ -1,7 +1,7 @@
 language: node_js
 node_js:
   - "10"
-  cache: npm
+cache: npm
 
 notifications:
   email:
@@ -17,7 +17,7 @@ install:
 script:
   - gitbook build
 
-  after_script:
+after_script:
   - cd _book
   - git init
   - git remote add origin https://${path}
