@@ -1,6 +1,6 @@
 # gitbook 搭建自己的 blog
 
-"This is such a great book!"
+Keyword: git、gitbook、github、shell、travis-CI
 
 - 创建 [gitbook](https://www.gitbook.com/) 项目
 
